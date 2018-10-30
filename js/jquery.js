@@ -127,7 +127,11 @@ $(document).ready(function () {
         $('.labelMyMessage').css({
             top: '25px'
             , fontSize: '12px'
-        })
+        });
+            var a = innerHeight-155 + 'px';
+           $('.contactPage').css({
+            height: a
+        });
     });
     $('.open_card').click(function () {
         $('.cartBlock').css({
